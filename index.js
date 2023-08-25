@@ -26,6 +26,9 @@ function themeToggle() {
     wft.ColorModeToggle();
     document.querySelector('body').classList.toggle('dark');
 }
+function navActiveClose() {
+    document.querySelector('.wft.nav').classList.remove('active');
+}
 
 const theme = window.matchMedia('(prefers-color-scheme: dark)').matches;
 if (theme) {
