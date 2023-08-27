@@ -4,19 +4,13 @@ body {
     --clr-accent-red: #FF001E;
 
     --clr-background-white: rgba(255, 255, 255, 0.25);
-    --clr-background-whiter: rgba(255, 255, 255, 0.57);
     --clr-background-black: rgba(0, 0, 0, 0.17);
-    --clr-background-blacker: rgba(88, 88, 88, 0.67);
 
     --clr-background-white-gradient: linear-gradient(355deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.57) 100%);
-    --clr-background-whiter-gradient: linear-gradient(355deg, rgba(255, 255, 255, 0.57) 0%, rgba(255, 255, 255, 0.72) 100%);
     --clr-background-black-gradient: linear-gradient(175deg, rgba(0, 0, 0, 0.17) 0%, rgba(88, 88, 88, 0.67) 100%);
-    --clr-background-blacker-gradient: linear-gradient(175deg, rgba(88, 88, 88, 0.67) 0%, rgba(88, 88, 88, 0.84) 100%);
 
     --clr-background-white-hover: rgba(255, 255, 255, 0.32);
-    --clr-background-whiter-hover: rgba(255, 255, 255, 0.72);
     --clr-background-black-hover: rgba(0, 0, 0, 0.24);
-    --clr-background-blacker-hover: rgba(88, 88, 88, 0.84);
 
     --clr-border-white: #FFFFFF;
     --clr-border-black: #000000;
@@ -276,6 +270,7 @@ body {
     margin-bottom: 5px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    height: 20px;
 }
 .wft.input.text.small {
     border: solid 2px;
@@ -314,6 +309,7 @@ body {
     margin-bottom: 5px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    font-size: 15px;
 }
 .wft.input.dropdown.small {
     border: solid 2px;
@@ -700,25 +696,19 @@ body {
     margin-bottom: 5px;
 }
 @keyframes pulse-white {
-    0% {
+    0%, 100% {
         background-color: var(--clr-background-white)
     }
     50% {
         background-color: var(--clr-background-white-hover)
     }
-    100% {
-        background-color: var(--clr-background-white)
-    }
 }
 @keyframes pulse-black {
-    0% {
+    0%, 100% {
         background-color: var(--clr-background-black)
     }
     50% {
         background-color: var(--clr-background-black-hover)
-    }
-    100% {
-        background-color: var(--clr-background-black)
     }
 }
 
