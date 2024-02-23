@@ -4,6 +4,6 @@ web:frametwo is a little neubrutalism CSS Framework. The whole Framework is deve
 ## Documentation:
 You can find the documentation at https://satistile.github.io/webframetwo/
 ## Version downloads:
-- current Version: https://satistile.github.io/webframetwo/resources/webframetwo.css and for JS https://satistile.github.io/webframeone/resources/webframetwo.js
+- current Version: https://satistile.github.io/webframetwo/resources/webframetwo.css and for JS https://satistile.github.io/webframetwo/resources/webframetwo.js
 ## License:
 MIT
